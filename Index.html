@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-setup">
+    <h1>Jogo da Velha</h1>
+    <label for="player-mode">Escolha o modo de jogo:</label>
+    <select id="player-mode">
+      <option value="1">1 Jogador</option>
+      <option value="2">2 Jogadores</option>
+    </select>
+    <div id="player-names">
+      <input type="text" id="player1-name" placeholder="Nome do Jogador 1">
+      <input type="text" id="player2-name" placeholder="Nome do Jogador 2">
+    </div>
+    <button id="start-game">Iniciar Jogo</button>
+  </div>
+
+  <div id="game-board" class="hidden">
+    <h2 id="player-turn"></h2>
+    <div class="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+    <button id="reset-game">Reiniciar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
