@@ -2,9 +2,6 @@
 
 Este é um jogo da velha interativo desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite que você jogue no modo para 1 jogador (contra o computador) ou no modo para 2 jogadores. O jogo também exibe mensagens aleatórias para o vencedor e inclui um botão "Reiniciar" que retorna para a tela inicial de configuração.
 
-![image](https://github.com/user-attachments/assets/ce19d76a-7992-46a8-8d75-02b90aa57ab5)
-
-
 ## 🚀 Funcionalidades
 
 - **Modo de jogo para 1 ou 2 jogadores**
@@ -40,6 +37,8 @@ Este é um jogo da velha interativo desenvolvido com **HTML**, **CSS** e **JavaS
    open index.html  # No macOS
    xdg-open index.html # No Linux
  4. Divirta-se jogando! 🕹️
+    
+![image](https://github.com/user-attachments/assets/ce19d76a-7992-46a8-8d75-02b90aa57ab5)
 
 🤝 Contribuições
 Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir um Pull Request ou enviar sugestões.
