@@ -1,3 +1,5 @@
+
+
 # 🕹️ Jogo da Velha (Tic Tac Toe)
 
 Este é um jogo da velha interativo desenvolvido com **HTML**, **CSS** e **JavaScript**. Ele permite que você jogue no modo para 1 jogador (contra o computador) ou no modo para 2 jogadores. O jogo também exibe mensagens aleatórias para o vencedor e inclui um botão "Reiniciar" que retorna para a tela inicial de configuração.
